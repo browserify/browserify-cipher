@@ -15,7 +15,9 @@
     "tape": "^4.2.0"
   },
   "scripts": {
-    "test": "standard && node test.js | tspec"
+    "standard": "standard",
+    "unit": "node test.js | tspec",
+    "test": "npm run standard && npm run unit"
   },
   "author": "Calvin Metcalf <calvin.metcalf@gmail.com>",
   "license": "MIT",
