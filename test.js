@@ -53,3 +53,8 @@ Object.keys(desModes).forEach(function (modeName) {
   var mode = desModes[modeName]
   runIvTest(modeName, mode.key, mode.iv)
 })
+
+// rc4 admits arbitrary key sizes
+runIvTest('rc4', 3, 0)
+runIvTest('rc4', 16, 0)
+runIvTest('rc4', 27, 0)
