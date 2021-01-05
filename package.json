@@ -6,6 +6,7 @@
   "dependencies": {
     "browserify-aes": "^1.0.4",
     "browserify-des": "^1.0.0",
+    "browserify-rc4": "^1.0.0",
     "evp_bytestokey": "^1.0.0"
   },
   "browser": "browser.js",
